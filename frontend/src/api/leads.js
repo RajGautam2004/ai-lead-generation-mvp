@@ -1,3 +1,4 @@
+//leads generation via agent and apify scrapper.
 import api from "../services/api";
 
 export const extractEmailsAsync = (campaignId, limit = 100) =>
